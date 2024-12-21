@@ -1,0 +1,13 @@
+{
+	"name": "docs-crawler",
+	"version": "1.0.0",
+	"description": "A Node.js script that crawls developer docs via Jina and saves plain text for LLM ingestion.",
+	"main": "crawler.js",
+	"type": "module",
+	"scripts": {
+		"start": "node crawler.js"
+	},
+	"dependencies": {
+		"axios": "^1.5.0"
+	}
+}
